@@ -10,9 +10,9 @@ class SourceData{
 
  factory  SourceData.fromJson(Map<String, dynamic> json) => SourceData(
       status: json["status"],
-      sources:List.from(json["sources"]).map(
+      sources: (json["sources"] as List).map(
               (element){
-             return Source.fromJson(json);
+             return Source.fromJson(element);
               }).toList(),);
 }
 

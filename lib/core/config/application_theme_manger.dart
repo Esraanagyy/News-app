@@ -13,12 +13,6 @@ class ApplicationThemeManger{
           fontFamily: "Exo"
       ),
       centerTitle: true,
-      shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.only(
-              bottomLeft: Radius.circular(50),
-              bottomRight: Radius.circular(50)
-          )
-      ),
       iconTheme: IconThemeData(
           size: 35,
           color: Colors.white
@@ -27,3 +21,9 @@ class ApplicationThemeManger{
   );
 
 }
+//   shape: RoundedRectangleBorder(
+//           borderRadius: BorderRadius.only(
+//               bottomLeft: Radius.circular(50),
+//               bottomRight: Radius.circular(50)
+//           )
+//       ),
